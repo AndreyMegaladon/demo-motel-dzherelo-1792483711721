@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню та ціни — Мотель Джерело</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 font-sans text-gray-800 antialiased">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 h-20 flex items-center">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-wider text-slate-900 flex items-center gap-2">
+                <span class="text-amber-600">◆</span> ДЖЕРЕЛО
+            </a>
+            <nav class="hidden md:flex items-center gap-2 text-sm font-medium">
+                <a href="index.html" class="hover:bg-amber-50 text-slate-700 rounded-lg px-4 py-2 transition">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 text-slate-700 rounded-lg px-4 py-2 transition">Про нас</a>
+                <a href="services.html" class="bg-amber-500 text-white rounded-lg px-4 py-2">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 text-slate-700 rounded-lg px-4 py-2 transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 text-slate-700 rounded-lg px-4 py-2 transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 text-slate-700 rounded-lg px-4 py-2 transition">Контакти</a>
+            </nav>
+            <div class="md:hidden flex items-center">
+                <a href="booking.html" class="bg-amber-500 text-white px-4 py-2 rounded-lg text-sm font-semibold">Бронювати</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-white border-b border-gray-100 py-4">
+        <div class="max-w-6xl mx-auto px-6 text-sm text-gray-500">
+            <a href="index.html" class="hover:text-amber-600">Головна</a> &gt; <span class="text-slate-800 font-semibold">Меню</span>
+        </div>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-6 py-16">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <span class="text-amber-600 font-bold uppercase tracking-wider text-sm mb-2 block">Смачно як вдома</span>
+            <h1 class="text-4xl font-black text-slate-900 mb-4">Наше меню</h1>
+            <p class="text-gray-600">Традиційні українські страви, великі порції та приємні ціни для мандрівників</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 uppercase">Перші страви</span>
+                            <h3 class="text-2xl font-black text-slate-900 mt-1">Солянка</h3>
+                        </div>
+                        <span class="text-2xl font-black text-amber-600">90₴</span>
+                    </div>
+                    <p class="text-gray-600">Густа та ситна солянка з м'ясним міксом.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 uppercase">Страви з мангалу</span>
+                            <h3 class="text-2xl font-black text-slate-900 mt-1">Шашлик</h3>
+                        </div>
+                        <span class="text-2xl font-black text-amber-600">160₴</span>
+                    </div>
+                    <p class="text-gray-600">Ніжний, гарно просмажений м'ясний шашлик.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 uppercase">Основні страви</span>
+                            <h3 class="text-2xl font-black text-slate-900 mt-1">Курячі стегенця з мангалу</h3>
+                        </div>
+                        <span class="text-2xl font-black text-amber-600">130₴</span>
+                    </div>
+                    <p class="text-gray-600">Свіжоприготовані курячі стегенця з мангалу.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 uppercase">Домашня кухня</span>
+                            <h3 class="text-2xl font-black text-slate-900 mt-1">Комплексні страви та гарніри</h3>
+                        </div>
+                        <span class="text-2xl font-black text-amber-600">80₴</span>
+                    </div>
+                    <p class="text-gray-600">Різноманітні каші, картопля, відбивні, котлети, голубці та свіжі салати.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-amber-500 rounded-3xl text-white p-10 text-center flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="text-left">
+                <h3 class="text-2xl font-bold mb-2">Бажаєте забронювати столик або номер?</h3>
+                <p class="text-amber-100 text-sm">Зв'яжіться з нами або забронюйте онлайн прямо зараз.</p>
+            </div>
+            <a href="booking.html" class="bg-white text-slate-900 font-bold px-8 py-4 rounded-xl hover:bg-gray-100 transition shadow-lg whitespace-nowrap">Забронювати</a>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300 py-16">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4 flex items-center gap-2"><span class="text-amber-500">◆</span> Мотель Джерело</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Затишок, смачна домашня кухня та чисті номери для всіх мандрівників на трасі Київ-Чоп.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">траса Київ-Чоп 449 км, Броди, Львівська область</p>
+                <p class="text-sm text-gray-400 mb-2">Тел: <a href="tel:+380980393349" class="text-amber-400 font-semibold">+380 98 039 3349</a></p>
+                <p class="text-sm text-gray-400">Email: info@motel-dzherelo.ua</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Навігація</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html" class="hover:text-amber-400 transition">Головна</a></li>
+                    <li><a href="about.html" class="hover:text-amber-400 transition">Про нас</a></li>
+                    <li><a href="services.html" class="hover:text-amber-400 transition">Меню</a></li>
+                    <li><a href="gallery.html" class="hover:text-amber-400 transition">Галерея</a></li>
+                    <li><a href="booking.html" class="hover:text-amber-400 transition">Бронювання</a></li>
+                    <li><a href="contacts.html" class="hover:text-amber-400 transition">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+            &copy; 2024 Мотель Джерело. Усі права захищені.
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
